@@ -14,8 +14,10 @@ const config: PlaywrightTestConfig = {
     timeout: 120 * 1000,
     reuseExistingServer: true,
   },
+  globalSetup: './e2e/config/globlSetup.ts',
   use: {
     baseURL,
+    storageState: './e2e/config/storageState.json',
   },
   reporter: [['html', { open: 'always' }]],
   projects: [
