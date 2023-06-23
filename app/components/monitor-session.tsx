@@ -8,7 +8,7 @@ const MonitorSession = () => {
   const { data: session } = useSession();
   useEffect(() => {
     router.refresh();
-  }, [session]);
+  }, [session, router]);
   return null;
 };
 

@@ -14,10 +14,10 @@ const Navbar = () => {
         <Link href={`/`} className="mr-4 inline-flex items-center p-2">
           Home
         </Link>
-        <Link href={`/fetch_cc`} className="mr-4 inline-flex items-center p-2">
+        <Link href={`/fetch-cc`} className="mr-4 inline-flex items-center p-2">
           CC_Fetch
         </Link>
-        <Link href={`/fetch_sc`} className="mr-4 inline-flex items-center p-2">
+        <Link href={`/fetch-sc`} className="mr-4 inline-flex items-center p-2">
           SC_Fetch
         </Link>
         <Link href={`/task-crud`} className="mr-4 inline-flex items-center p-2">
